@@ -102,7 +102,7 @@ Stretch Questions
         Display inline-block: <img>
 5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them?
         The box model is a set of rules that decides how a CSS element’s sizes are computed when adding padding, borders, and margins around the content.
-        The way to fix this is to use padding and borders.
+        The way to fix this is to use a universal selector *{}.
 [ ] Research and understand what a `merge conflict` is and how to resolve it.
         Merge conflicts happen when you merge branches that have competing commits. The way tio resolve a merge conflict is to manually edit the conflicted file to select the changes that you want to keep in the final merge
 [ ] Research the Git commands `pull`, `rebase`, `merge`. These commands will allow you to bring in changes that other developers push to the main branch.
