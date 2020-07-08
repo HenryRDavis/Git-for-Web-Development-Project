@@ -101,4 +101,18 @@ Stretch Questions
         Display inline: <span>, <strong>
         Display inline-block: <img>
 5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them?
-        
+        The box model is a set of rules that decides how a CSS element’s sizes are computed when adding padding, borders, and margins around the content.
+        The way to fix this is to use padding and borders.
+[ ] Research and understand what a `merge conflict` is and how to resolve it.
+        Merge conflicts happen when you merge branches that have competing commits. The way tio resolve a merge conflict is to manually edit the conflicted file to select the changes that you want to keep in the final merge
+[ ] Research the Git commands `pull`, `rebase`, `merge`. These commands will allow you to bring in changes that other developers push to the main branch.
+        Pull: Fetches from and integrate with another repository or a local branch
+        Rebase: Reapplies commits on top of another base tip
+        Merge: Joins two or more development histories together
+[ ] Research the Git commands `reset `, `revert`, `clean`. These commands will allow you to go back and amends previous commits you have made.
+        Reset: Resets current HEAD to the specified state
+        Revert: Reverts some existing commits
+        Clean: Removes untracked files from the working tree
+[ ] Research and set up a Graphical User Interface (GUI) Git console. 
+
+[ ] Research and setup SSH keys with GitHub, so that you do not need to input your username/password each time you push. 
