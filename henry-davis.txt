@@ -1,4 +1,4 @@
-link to finished codepen:codepen.io/Enriques/pen/GRoxBKP?editors=1100
+link to finished codepen: http://codepen.io/Enriques/pen/GRoxBKP?editors=1100
 
 1. What is Semantic HTML? 
         It is to reinforce meaning and information 
