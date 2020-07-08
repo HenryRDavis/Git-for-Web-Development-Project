@@ -1,0 +1,118 @@
+link to finished codepen:codepen.io/Enriques/pen/GRoxBKP?editors=1100
+
+1. What is Semantic HTML? 
+        It is to reinforce meaning and information 
+2. What is HTML used for? 
+        Webpages, images, navigation, etc.
+3. What is an attribute and where do we put it? 
+        An attribute is a piece of information that is part of a tag inside of an element.
+4. What is the h1 tag used for? How many times should I use it on a page? 
+        h1s are a tag and can be used many times but is limited to 6 sizes 
+5. Name two tags that have required attributes. 
+        attribute name and attribute value
+6. What do we put in the head of our HTML document? 
+        A title more specifically <title></title>
+7. What is an id? 
+        An id is an attribute
+8. What elements can I add an id to? 
+        In the beginning of an opening tag
+9. How many times can I use the same id on a page? 
+        Once
+10. What is a class? 
+        A class is an attribute which specifies one or more class names for an HTML element.
+11. What elements can I add a class to? 
+        In the beginning of an opening tag
+12. How many times can I use the same class on a page? 
+        As many as you want
+13. How do I get my link to open in a new tab? 
+        target="_blank"
+14. What is the alt attribute in the image tag used for? 
+        The alt attribute provides alternative information for an image if a user for some reason cannot view it.
+15. How do I reference an id? 
+        With a #
+16. What is the difference between a section and a div? 
+        A section is content inside a group while div is used for like styling.
+17. What is CSS used for? 
+        To style and make the page look all colorful, organized and pretty.
+18. How do we select an element? Example - every h2 on the page. 
+        h2 {}.
+19. What is the difference between a class and an id? - Give me an example of when I might use each one.
+        The difference between these to is that an ID can be used to identify one element, whereas a class can be used to identify more than one.
+        For instance, when using CSS you may want to use a class to change the text of the section, however using an ID within that class allows you to change that element to make it the only text to stand out.
+20. How do we select classes in CSS? 
+        With a period (.)
+21. How do we select a p element with a single class of “human””?
+        p.human {}
+22. What is a parent child selector? When would this be useful? 
+        A parent child selector selects all elements that are a direct child of the specified element. 
+        To find specific elements within a clump of other elements.
+23. How do you select all links within a div with the class of sidebar?
+        div.sidebar {}
+24. What is a pseudo selector? 
+        A psuedo selector classes of CSS.
+25. What do we use the change the spacing between lines?
+        line-height: 24px;
+26. What do we use to change the spacing between letters?
+        letter-spacing: 2px or normal;
+27. What do we use to to change everything to CAPITALS? lowercase? Capitalize? 
+        text-transform: uppercase; 
+        text-transform: lowercase;
+28. How do I add a 1px border around my div that is dotted and black? 
+        div {
+            outline-color: black;
+            outline-style: dotted;
+        }
+29. How do I select everything on the page? 
+        Ctr + a
+30. How do I write a comment in CSS? 
+        /* */
+31. How do I find out what file I am in, when I am using the command line? 
+        pwd
+32. Using the command line - how do I see a list of files/folders in my current folder? 
+        ls
+33. How do I remove a file via the command line? Why do I have to be careful with this? 
+        rm. You can corrupt files permanetly and will not pop-up a warning prompt
+34. Why should I use version control? 
+        To keep track of changes, especially if you're in a group.
+35. How often should I commit to github? 
+        git commit -m ""
+36. What is the command we would use to push our repo up to github?
+        git push -u
+37. Walk me through Lambda's git flow. 
+        Fork
+        Successful fork should have your name
+        Add your TL as a collaborator
+        Clone the repo
+        Inside bash you should direct your way to your desired folder using cd
+        Clone your repo inside that folder
+        Create a new repo
+        Then checkout using git checkout -b 'firstname-lastname'
+
+Stretch Questions
+
+1. What is the difference between an inline element and a block element?
+        An inline element does not force a new line to begin in the document flow while a block element causes a line break to occur.
+2. What happens when an element is positioned absolutely?
+        When an element is positioned absolutely it is removed from the normal document flow, and no space is created for the element in the page layout.
+3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
+        By creating a margin, padding and display.
+4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+        Display block: <div>, <h1>, <p>
+        Display inline: <span>, <strong>
+        Display inline-block: <img>
+5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them?
+        The box model is a set of rules that decides how a CSS element’s sizes are computed when adding padding, borders, and margins around the content.
+        The way to fix this is to use a universal selector *{}.
+[ ] Research and understand what a `merge conflict` is and how to resolve it.
+        Merge conflicts happen when you merge branches that have competing commits. The way tio resolve a merge conflict is to manually edit the conflicted file to select the changes that you want to keep in the final merge
+[ ] Research the Git commands `pull`, `rebase`, `merge`. These commands will allow you to bring in changes that other developers push to the main branch.
+        Pull: Fetches from and integrate with another repository or a local branch
+        Rebase: Reapplies commits on top of another base tip
+        Merge: Joins two or more development histories together
+[ ] Research the Git commands `reset `, `revert`, `clean`. These commands will allow you to go back and amends previous commits you have made.
+        Reset: Resets current HEAD to the specified state
+        Revert: Reverts some existing commits
+        Clean: Removes untracked files from the working tree
+[ ] Research and set up a Graphical User Interface (GUI) Git console. 
+
+[ ] Research and setup SSH keys with GitHub, so that you do not need to input your username/password each time you push. 
